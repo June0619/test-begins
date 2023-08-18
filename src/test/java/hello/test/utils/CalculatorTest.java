@@ -15,4 +15,11 @@ class CalculatorTest {
         assertThat(sum).isEqualTo(6);
     }
 
+    @Test
+    void summaryV2Test() {
+
+        int sum = cal.summaryV2(1, 2, 3);
+        assertThat(sum).isEqualTo(6);
+    }
+
 }
